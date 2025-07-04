@@ -1,0 +1,236 @@
+.footercontainer{
+    background: #143863;
+    padding: 20px 50px;
+    position: relative;
+    margin-top: 5rem;
+    /* min-height: 30rem; */
+}
+
+.footercontainer .subscribe-main-wrapper {
+  position: absolute;
+  width: 100%;
+  top: -145px;
+  right: 0;
+  left: 0;
+  padding: 0 58px;
+}
+
+.footercontainer .subscribe-section {
+  background-color: #f76c1e;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footercontainer .subscribe-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+font-weight: 700;
+line-height: 180%;
+}
+
+.footercontainer .subtitle {
+  margin: 10px 0;
+  font-size: 1rem;
+  font-style: normal;
+font-weight: 400;
+line-height: 180%;
+}
+
+.footercontainer .description {
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+
+  font-style: normal;
+font-weight: 400;
+line-height: 180%;
+}
+
+.footercontainer .subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footercontainer .subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+}
+
+.footercontainer .subscribe-form button {
+  padding: 10px 30px;
+  border: none;
+  background-color: #143863;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.footercontainer .subscribe-form button:hover {
+  background-color: #333;
+  transition: all 0.4 ease;
+}
+
+.footercontainer .footer {
+  color: white;
+  margin-top: 15rem;
+}
+
+.footercontainer .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin: auto;
+  /* position: relative; */
+}
+
+.footercontainer .footer-column {
+  flex: 1;
+  /* min-width: 200px; */
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer-left-column {
+  width: 36%;
+}
+
+.footer-right-column{
+  display: flex;
+  width: 52%;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  position: relative;
+  top: -105px;
+  
+}
+
+.footercontainer .footer-logo img {
+  /* width: 250px; */
+  width: 85%;
+  vertical-align: middle;
+}
+
+.footercontainer .footer-logo h2 {
+  /* margin: 10px 0 0 0; */
+  font-size: 1.2rem;
+}
+
+.footercontainer .tagline {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.footercontainer .footer-desc {
+  /* width: 100%;
+  font-size: 22px;
+  line-height: 1.6; */
+  /* margin-top: 10px; */
+
+  color: #FFF;
+font-family: "Neue Montreal";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+position: relative;
+top: -100px;
+
+/* position: absolute; */
+}
+
+.footercontainer .footer-column h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footercontainer .footer-column ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  font-size: 0.9rem;
+}
+
+.footercontainer .contact-info li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.footercontainer .contact-info li.address {
+  align-items: self-start;
+}
+
+.footercontainer .contact-info li img{
+    width: 26px;
+    margin-right: 10px;
+}
+
+.footercontainer .contact-info li.address img{
+    margin-top: 5px;
+}
+
+.footercontainer .footer-bottom {
+  border-top: 1px solid #84a2ce;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+/* .social-icons{
+  position: absolute;
+  right: 0px;
+} */
+
+.footercontainer .social-icons a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footercontainer .social-icons img{
+    width:153px;
+}
+.footer-top_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    padding: 0px;
+}
+.footer-top_wrapper img{
+    width: 100%;
+}
+
+.footer-bottom ul{
+  display: flex;
+  gap: 10px;
+}
+
+.footer-bottom ul li{
+  list-style: none;
+}
+
+.footer-bottom ul li a{
+  text-decoration: none;
+   font-size: 0.85rem;
+   color: #fff;
+}

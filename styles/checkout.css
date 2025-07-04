@@ -1,0 +1,137 @@
+.checkoutcontainer{
+    width: 100%;
+    /* max-width: 1440px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutbody{
+    width: 100%;
+   padding: 42px 24px 28px 60px;
+   background: #F5F5F7;
+}
+
+.checkoutHeading{
+color: #000;
+font-family: "Neue Montreal";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 90%;
+padding-bottom: 30px;
+}
+
+.checkout-main{
+    width: 1140px;
+    margin: 35px auto 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+}
+
+.checkoutcontent{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto 0px;
+    width: 1140px;
+}
+
+.checkoutcontent .checkoutcontentleft{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 725px;
+}
+
+.checkoutcontent .checkoutcontentleft .checkoutaccordian{
+  background: '#fff';
+  box-shadow: '0px 10px 20px 0px rgba(144, 144, 144, 0.15)';
+  padding:"5px 14px"
+}
+
+.checkoutcontent .checkoutcontentleft .checkoutaccordiantitle{
+   
+font-family: Roboto;
+font-size: 22.5px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.checkoutcontent .checkoutcontentright{
+width: 380px;
+}
+
+.checkoutbody .checkoutlogo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.checkoutbody .paymenttext{
+color: #A4A4A4;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+.checkoutbody .paymenttext span{
+color: #F47721;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+}
+
+.checkout_help_chat_wrapper{
+    
+    margin: 50px 0px 20px 0px;
+    background: #ffffff;
+    padding: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+line-height: 30px;
+}
+
+.cart{
+    width: 24px;
+    height: 24px;
+}
+
+.adobe{
+    width: 121px;
+    height: 70px;
+}
+
+.mastercard{
+    width: 103px;
+    height: 37px;
+
+}
+
+.visa{
+    width: 89px;
+    height: 39px;
+
+}
+
+.customer{
+    width: 60px;
+    height: 60px;
+}
+
+.nextarrow{
+    width: 40px;
+    height: 40px;
+}

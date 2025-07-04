@@ -1,0 +1,496 @@
+
+
+
+
+
+/* Vendor-Comparison-css  27/06/2025 */
+/* Main Layout */
+
+.comparison-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; 
+    background-color: #f5f5f7;
+    padding-bottom: 100px;
+
+}
+
+.main-container {
+    max-width: 1140px;
+}
+
+.content-area {
+    flex-grow: 1;
+}
+
+/* Vendor Comparison Section */
+
+.vendor-comparison-section {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #000;
+    padding: 42px 0px;
+}
+
+
+
+.comparison-grid {
+    display: flex;
+    gap: 50px;
+}
+
+/* Vendor Card (for the images at the top) */
+
+.comparison-block{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vendor-card-main {
+    text-align:center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 360px; 
+    width: 360px;
+}
+
+.vendor-card {
+    display: flex;
+    flex-direction: column;
+    height: 360px; 
+    width: 360px;
+}
+
+.vendor-main-image {
+    width: 360px;
+    height: 270px; 
+    object-fit: cover;
+}
+
+.vendor-name {
+    font-size: 25px;
+    font-weight:500;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.vendor-firm-name {
+    text-align: left;
+    font-size: 22.5px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.vs {
+     font-size: 25px;
+    font-weight:500;
+    font-weight: bold;
+    color: #f47721;
+    margin-top: 5px;
+}
+.vendor-location {
+    font-size: 14px;
+    text-align:left;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.recommendation-firm-location {
+    font-size: 18px;
+    font-weight: 400;
+    color: #A7A7A7;
+}
+
+
+.vendor-firm-check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firm-check{
+    width: 20px;
+    height: 20px;
+    background-color: #E5E5E5 ;
+    border: 0.5px solid #C9C9C9;
+
+}
+
+
+.add-compare-button {
+    background-color: #f47721; 
+    width:254px;
+    height:60px;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 26px;
+}
+
+.add-compare-button:hover {
+    background-color: #143863;
+}
+
+/* Comparison Table */
+.comparison-table-header {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    grid-column: 2 / 3; 
+    min-height: 250px; 
+    margin-top: 48px;
+}
+
+
+
+.comparison-table-header p {
+    margin: 0px 0; 
+    padding-left: 50px; 
+    display: flex;
+    align-items: center;  
+    width:360px;
+    font-size: 22.5px;
+    border: 0.5px solid #CDCBCB;
+    background-color: #fff;
+}
+
+.customer-rating-label, .room-count-label, .catering-policy-label{
+height:80px;
+}
+
+.price-label{
+    height:120px;
+}
+
+.areas-available-label{
+height:180px;
+
+}
+
+
+
+
+
+/* Vendor Details Column  */
+.vendor-details-column {
+    margin: 48px 0px 0px 0px;
+}
+
+.vendor-details-column p{
+    margin: 0px 0;
+     
+
+}
+
+
+
+
+.vendor-details-column span{
+    color:#f47721;
+   
+}
+.rating-row, .room-count-value, .catering-policy-value {
+    height:80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    width:360px;
+    font-size: 18px;
+    border: 0.5px solid #CDCBCB;
+    background-color: #fff;
+}
+
+.price-value{
+    display: flex;
+    justify-content: center; 
+    flex-direction:column;
+    height:120px; 
+    width:360px;
+    font-size: 18px;
+    padding-left: 30px;
+    border: 0.5px solid #CDCBCB;
+    background-color: #fff;
+
+}
+
+.areas-row{
+     display: flex;
+     justify-content: center;
+    align-items: center; 
+    flex-direction:column;
+    height:180px;
+    align-items: center;  
+    width:360px;
+    font-size: 18px;
+    border: 0.5px solid #CDCBCB;
+    background-color: #fff;
+
+}
+
+.rating-star {
+    width: 23px;
+    height: 23px;
+    padding-left: 30px;
+    color: #E79613;
+}
+
+
+.areas-row span, .price-value span {
+   color:#f47721;
+}
+
+.area-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.save-continue-button {
+    width: 360px;
+    height: 70px;
+    background-color: #f47721; 
+    color: #fff;
+    border: none;
+    margin-top: 57px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center; 
+    transition: background-color 0.3s ease;
+}
+
+.save-continue-button:hover {
+   background-color: #143863;
+}
+
+/* Click 'N' Event Recommendation Section */
+.recommendation-section {
+    
+    border-radius: 8px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.recommendation-card {
+    border-radius: 25px;
+    width: 525px;
+    height: 540px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-image {
+    width: 525px; 
+    height: 360px;
+    object-fit: cover;
+  border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+.recommendation-info {
+    flex-grow: 1;
+}
+
+/* .icon1{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    width:30px;
+    height:30px;
+    top:50px;
+    background-color: white;
+}
+
+.icon2{
+    border-radius: 15px;
+    position: relative;
+    margin-left:20px;
+    width:30px;
+    height:30px;
+    bottom:50px;
+    background-color: white;
+}
+
+.icon3{
+    border-radius: 15px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    width:30px;
+    height:30px;
+    bottom:50px;
+} */
+
+
+
+.card-container {
+  position: relative;
+  width: 525px;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 525px;
+  height:360px;
+  display: block;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.bottom-left-icon,
+.bottom-right-icon {
+  position: absolute;
+  background: white;
+  padding: 11.5px;
+  border-radius: 8px;
+  height: 55px;
+}
+
+.top-right-icon {
+  top: 0px;
+  right: 20px;
+  padding-top: 20px;
+  border-radius: none !important;
+
+    position: absolute;
+  background: white;
+  padding: 10px;
+
+ clip-path: polygon(
+    0 0, 100% 0, 100% 100%,
+52% 85%, 1000% 45%, 48% 85%,
+    0 100%
+  );
+  
+}
+
+.bottom-left-icon {
+  bottom: 20px;
+  left: 20px;
+}
+
+.bottom-right-icon {
+  bottom: 20px;
+  right: 20px;
+}
+
+.top-right-icon img,
+.bottom-left-icon img,
+.bottom-right-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+/* Creating the pointed bottom of the shield */
+
+
+
+
+
+
+
+.recommendation-name {
+    font-size: 22.5px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.recommendation-location {
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+    margin-bottom: 10px;
+}
+
+
+.recommendation-details {
+    text-align:right;
+}
+.recommendation-details .rating-text{
+ 
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.recommendation-details .capacity-text{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.rating-text span,
+.capacity-text span {
+    display: flex;
+    align-items: center;
+}
+
+.estimated-cost {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000; 
+    margin-left: 30px;
+}
+
+.estimated-cost span{
+    font-size: 22.5px;
+    font-weight: 700;
+   
+}
+
+.suggestion-link {
+    color: #9A9999; 
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.suggestion-link:hover {
+    text-decoration: underline;
+}
+
+.suggestion-link span{
+    color: #f47721; 
+    text-decoration: none;
+    font-size: 18px;
+}

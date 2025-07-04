@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/webfont/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amanda Signature';
+  src: url('/webfont/amandasignature.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

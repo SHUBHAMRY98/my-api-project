@@ -1,0 +1,1642 @@
+.text-wrapper-39,
+.we-ve-got-it-all {
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+.ask-now,
+.banner-li a,
+.banner-link .img-li-1 li,
+.footer-bottom ul li a,
+.nav_links ul li a,
+.read-more,
+.vendor a,
+.view a {
+    text-decoration: none;
+}
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.75;
+    max-width: 100vw;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.homepage .header {
+    background-color: transparent;
+    height: 37px;
+    left: 19px;
+    position: relative;
+    top: 235px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fixed_header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    border-bottom: 2px solid #f5f5f7;
+}
+.why-click-n-event {
+    background-color: #f5f5f7;
+    padding: 47px 60px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+.why-click-n-event .overlap-19 {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 31px;
+}
+.text-wrapper-39 {
+    color: #000;
+    font-family: "Neue Montreal-Bold", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    height: 68px;
+    line-height: 67.8px;
+}
+.no-matter-what-type {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 112px;
+    letter-spacing: 0;
+    line-height: 27.5px;
+}
+.we-ve-got-it-all {
+    color: #f47721;
+    font-family: Amanda Signature;
+    font-size: 43px;
+    font-weight: 400;
+    height: 73px;
+    line-height: 73.4px;
+}
+.overlap-20,
+.overlap-group-9 {
+    font-family: Roboto, sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.group-18 {
+    height: 55px;
+    width: 152px;
+}
+.overlap-group-9 {
+    background-color: #f47721;
+    border-radius: 6px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 140px;
+    line-height: 24.5px;
+    border: none;
+    color: #fff;
+}
+.explore-btn:hover,
+.overlap-group-9:hover,
+.search:hover {
+    transform: scale(1.01);
+    transition: 0.4s;
+    background: #143863;
+}
+.img-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+.blog_image_wrapper,
+.blog_image_wrapper img,
+.enjoy img,
+.footer-top_wrapper img,
+.header_banner img,
+.how-it-works,
+.image-wrapper .banner_preview_wrapper img,
+.logo img,
+.we-have-got-it-all-img,
+.we-have-got-it-all-img img {
+    width: 100%;
+}
+.overlap-20 {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 16px;
+    color: #f47721;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center;
+    border: 1px solid #f47721;
+}
+.find-everything-you,
+.text-wrapper-42 {
+    color: #000;
+    margin: 0 auto;
+    letter-spacing: 0;
+}
+.overlap-20:hover {
+    background: #f47721;
+    color: #fff;
+    border: 1px solid #f47721;
+    transition: 0.4s;
+}
+.how-it-work-wrapper {
+    padding: 50px 60px;
+}
+.text-wrapper-42 {
+    font-family: "Neue Montreal-Bold", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    height: 68px;
+    width: 25%;
+    line-height: 67.8px;
+    white-space: nowrap;
+}
+.find-everything-you {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 27.5px;
+    text-align: center;
+}
+.steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 89px;
+    justify-content: center;
+    margin-top: 79px;
+}
+.step-card {
+    width: 28%;
+    max-width: 380px;
+    height: 165px;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s;
+}
+.step-number,
+.white-circle {
+    position: absolute;
+    border-radius: 50%;
+}
+.step-card:nth-child(odd) {
+    background-color: #f58220;
+}
+.icon_title_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card_title_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.white-circle {
+    top: -60px;
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    left: 38%;
+    z-index: 0;
+}
+.step-number {
+    top: -55px;
+    left: 40%;
+    color: #fff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    z-index: 1;
+}
+.card_title_wrapper h4 {
+    color: #fff;
+    font-family: "Neue Montreal";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.card_title_wrapper p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.blog {
+    width: 100%;
+    margin: 0;
+}
+.enjoy {
+    padding: 13px 0 20px;
+}
+.blog-heading {
+    width: 100%;
+    height: 120px;
+}
+.blog-heading-text {
+    color: #000;
+    font-family: "Neue Montreal-Bold", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    width: 100%;
+    margin: 50px auto;
+    white-space: pre-line;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-align: center;
+}
+.blog-text,
+.date,
+.read-more {
+    line-height: 120%;
+    font-style: normal;
+}
+.blog-card {
+    display: flex;
+    padding: 50px 60px;
+    gap: 30px;
+    width: 100%;
+}
+.blog-item {
+    width: 33%;
+    gap: 18px;
+}
+.read-more,
+.text-arrow-wrapper {
+    gap: 9px;
+    display: flex;
+}
+.date {
+    color: #817e7e;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.blog-text {
+    color: #000;
+    font-family: "Neue Montreal";
+    font-size: 20px;
+    font-weight: 700;
+}
+.a-one-stop-solution .text-wrapper-3,
+.banner-li,
+.nav_links ul li a:hover,
+.read-more,
+.vendor a,
+.vendor-toggle:hover {
+    color: #f47721;
+}
+.blog_heading_wrapper {
+    margin: 18px 0;
+}
+.read-more {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+}
+.header_banner {
+    padding: 19px 23px 35px;
+}
+.add-container {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.top_nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 23px 5px;
+}
+.custom-dropdown,
+.custom-dropdown2 {
+    padding: 7px 12px;
+    background-image: url("../assets/images/icons/Polygon.svg");
+    background-position: right 9px center;
+    background-color: #fff;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-size: 12px 10px;
+}
+.top_nav_wrapper .location,
+.top_nav_wrapper .signupandsupport {
+    display: flex;
+    align-items: center;
+}
+.top_nav_wrapper .location .locationpin {
+    width: 30px;
+}
+.custom-dropdown {
+    width: 161px;
+    height: 36px;
+    font-size: 18px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-dropdown:focus, .custom-dropdown2:focus{
+    outline: none;
+}
+
+.dropdown-rectangle {
+    height: 36px;
+    width: 36px;
+    border: 1.5px solid #000;
+    position: absolute;
+    left: 178px;
+}
+.accordion-icon,
+.polygon {
+    width: 16px;
+    height: 16px;
+}
+.top_nav_wrapper .location .dropmenu {
+    width: 157px;
+}
+.top_nav_wrapper .signupandsupport .loginsupportbox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.top_nav_wrapper .signupandsupport .loginsupportbox ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top_nav_wrapper .signupandsupport .loginsupportbox ul li img {
+    width: 32px;
+    margin-right: 3px;
+}
+.language-dropdown {
+    width: 160px;
+    display: flex;
+   
+}
+.custom-dropdown2 {
+    width: 156px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    font-family: Roboto;
+    font-size: 18px;
+     cursor: pointer;
+}
+
+ .language-dropdown:focus, .custom-dropdown2:focus{
+    outline: none !important;
+}
+
+.dropdown-rectangle2 {
+    height: 36px;
+    width: 36px;
+    border: 1.5px solid #000;
+    position: absolute;
+    right: 27px;
+}
+.nav-list,
+.nav-list li {
+    position: relative;
+    list-style: none;
+}
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.navigation .logo {
+    width: 25%;
+    max-width: 357px;
+    display: flex;
+    align-items: center;
+}
+.navigation_vendor {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: end;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto;
+    line-height: normal;
+    font-style: normal;
+}
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-list li {
+    cursor: pointer;
+}
+.nav_links ul li a {
+    color: #000;
+}
+.vendor-toggle {
+    display: flex;
+    color: #a7a7a7;
+    transition: color 0.3s;
+    align-items: center;
+    gap: 5px;
+}
+.explore-btn,
+.search {
+    transition: 0.4s;
+    cursor: pointer;
+}
+.vendor a:hover {
+    color: #000;
+}
+.nav-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    width: 120px;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    padding: 0.2rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    list-style: none;
+    margin-top: 0.5rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+.nav-dropdown-menu li {
+    padding: 0.3rem 0;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.nav-dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+.nav_links .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.nav_links ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+.vendor a {
+    font-weight: 700;
+    line-height: normal;
+}
+.bannerContainer {
+    position: relative;
+}
+.bg-1 {
+    background-color: #f5f5f7;
+    padding: 60px 40px;
+    display: flex;
+}
+.bg-1 .content-wrapper {
+    width: 60%;
+    padding-bottom: 70px;
+}
+.a-one-stop-solution {
+    font-family: "Neue Montreal";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.banner-li,
+.content-wrapper .lorem-ipsum,
+.search {
+    font-family: Roboto;
+    line-height: 160%;
+    font-style: normal;
+}
+.a-one-stop-solution .span {
+    color: #143863;
+}
+.content-wrapper .lorem-ipsum {
+    padding-top: 30px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bg-1 .image-wrapper {
+    width: 40%;
+    position: relative;
+}
+.image-wrapper .top_right_corner_ellipse {
+    background-color: #f47721;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.image-wrapper .ellipse {
+    background-color: #f47721;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    bottom: -60px;
+    left: 50px;
+}
+.image-wrapper .banner_preview_wrapper {
+    position: absolute;
+    top: -120px;
+    left: -70px;
+    right: -70px;
+}
+.image-wrapper .group {
+    position: absolute;
+    height: 600px;
+}
+.image-wrapper .div {
+    background-color: #f47721;
+    border-radius: 42px;
+    height: 84px;
+    width: 84px;
+    position: absolute;
+    left: 100%;
+}
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    padding: 30px 0;
+    background-color: #f5f5f5;
+}
+.dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    height: 45px;
+    padding-left: 10px;
+    align-items: center;
+    appearance: none;
+    background-image: url("../assets/images/Polygon3.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 12px 10px;
+}
+.search {
+    width: 130px;
+    height: 45px;
+    border-radius: 6px;
+    background: #f47721;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+.banner-link {
+    display: flex;
+    gap: 62px;
+}
+.banner-link .img-li-1 {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.banner-link .img-li-1 li {
+    list-style: none;
+}
+.banner-li {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.odometer,
+.overlap-content-text1 {
+    color: #f47721;
+    font-family: "Neue Montreal";
+    font-size: 50px;
+}
+.banner-li a {
+    color: #f47721;
+}
+.banner-li-text1 {
+    width: 145px;
+}
+.overlap-content1,
+.overlap-content2,
+.overlap-content3 {
+    display: flex;
+    font-family: "Neue Montreal";
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.overlap-container {
+    position: absolute;
+    width: 100%;
+    bottom: -110px;
+}
+.overlap-box1 {
+    background: #fff;
+    box-shadow: 0 10px 25px 0 rgba(144, 144, 144, 0.2);
+    display: flex;
+    margin: 0 45px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+.faq-accordion,
+.faq-item {
+    box-shadow: 0 10px 20px 0 rgba(144, 144, 144, 0.15);
+}
+.overlap-content-text1 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+}
+.odometer,
+.overlap-content-text2 {
+    font-style: normal;
+    line-height: 113%;
+    font-weight: 700;
+}
+.overlap-content-text1 span.counter {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+}
+.overlap-content-text2 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+}
+.rectangular-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 140px 50px 55px;
+    margin: auto;
+}
+.service_contrainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.carousel_wrapper,
+.left_side_content,
+.rectangular-text,
+.section {
+    flex-direction: column;
+    display: flex;
+}
+.rectangular-text {
+    justify-content: center;
+    width: 32%;
+}
+.what-are-you-looking {
+    color: #000;
+    font-family: "Neue Montreal";
+    font-size: 55px;
+    line-height: 65px;
+    font-style: normal;
+    font-weight: 700;
+}
+.explore-btn,
+.let-us-know-what-are {
+    font-size: 15px;
+    font-style: normal;
+    line-height: 153%;
+}
+.let-us-know-what-are {
+    color: #000;
+    margin: 35px 0 46px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.explore-btn {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background: #f47721;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 700;
+}
+.section-header h4,
+.view-more {
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+}
+.faq-accordion,
+.faq-item {
+    transition: background-color 0.3s;
+}
+.service_vendor_wrapper {
+    width: 68%;
+}
+.servive-and-vendor {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.author-group,
+.section-header {
+    justify-content: space-between;
+}
+.section-header {
+    display: flex;
+}
+.section-header h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.view-more {
+    color: #f47721;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.ask-now,
+.view {
+    align-items: center;
+    display: flex;
+}
+.view {
+    gap: 10px;
+    justify-content: center;
+}
+.grid {
+    display: flex;
+    width: 100%;
+    margin: 20px 0 29px;
+}
+.carousel_card {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 62px;
+}
+.card {
+    width: 28%;
+    max-width: 200px;
+    height: 50vh;
+    max-height: 200px;
+    flex-shrink: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: #f1f1f2;
+}
+.author_name_detail,
+.text-box {
+    text-align: start;
+}
+.card:hover {
+    background: #f47721;
+    transition-duration: 0.5s;
+    color: #ffff;
+}
+.card.selected {
+    background: #f47721;
+    color: #fff;
+}
+.card-rectangle {
+    height: 9px;
+    background-color: #f47721;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.preview_wrapper {
+    width: 150px;
+    margin: 0 auto;
+}
+.preview_wrapper img {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.title {
+    columns: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+.testimonials {
+    background-color: #f5f5f7;
+    padding: 40px 60px;
+}
+.testimonial-heading {
+    color: #000;
+    font-family: "Neue Montreal";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.author-name,
+.text-main {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    color: #000;
+}
+.image-text-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 45px 0 0;
+    gap: 86px;
+}
+.testimonials-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px 0;
+}
+.testimonials-text .testimonials_nav_box {
+    position: absolute;
+    z-index: 11;
+    right: 10px;
+    bottom: 100px;
+    background: #f5f5f7;
+}
+.quote {
+    width: 60px;
+    height: 50px;
+}
+.text-box {
+    width: 100%;
+}
+.text-main {
+    font-weight: 700;
+    line-height: 142%;
+}
+.author-group {
+    display: flex;
+    height: 65px;
+    gap: 10px;
+    margin: 35px 0;
+}
+.faq-help p.faq-help-title,
+.service_and_vendor {
+    margin-bottom: 20px;
+}
+.author-name {
+    font-weight: 500;
+    line-height: 152%;
+}
+.author-detail,
+.faq-left h4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+.author-detail {
+    color: #888;
+    font-size: 15px;
+    line-height: 152%;
+}
+.service_banner_container {
+    width: 100%;
+    display: flex;
+    gap: 28px;
+}
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 60px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.faq-left {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 40px;
+}
+.faq-left h4 {
+    color: #000;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 27px;
+}
+.faq-left h2 {
+    color: #000;
+    font-family: "Neue Montreal";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+.faq-help p.faq-help-title,
+.faq-left p {
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 400;
+    font-family: Roboto;
+    font-style: normal;
+}
+.faq-search {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 36px;
+}
+.faq-search input {
+    width: 90%;
+    padding: 15px 40px 15px 10px;
+    border: 1px solid #f5f5f7;
+    background: #f5f5f7;
+    border-radius: 5px;
+}
+.search-icon {
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    pointer-events: none;
+    color: #aaa;
+}
+.search-icon img {
+    width: 27px;
+}
+.faq-help p.faq-help-subtitle {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 60px;
+}
+.ask-now {
+    color: #f76c1e;
+    font-weight: 700;
+}
+.ask-now span {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.faq-right {
+    flex: 1;
+    min-width: 300px;
+}
+.faq-item {
+    padding: 25px 10px 25px 38px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-item.expanded {
+    background-color: #f76c1e;
+    color: #fff;
+    flex-direction: column;
+}
+.faq-item .faq-question-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-item .faq-question-wrapper .icon_faq .colapsicon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq-item .faq-question {
+    font-weight: 700;
+}
+.faq-item.expanded .faq-answer {
+    margin-top: 10px;
+    font-weight: 400;
+}
+.view-all {
+    margin-top: 35px;
+}
+.faq_accordian_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq-accordion {
+    background-color: #fff;
+}
+.faq-accordion.active {
+    background: #f47721;
+}
+.faq-question {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    transition: color 0.3s;
+}
+.faq-question2.active {
+    color: #fff;
+}
+.faq-answer-text {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+}
+.footercontainer {
+    background: #143863;
+    padding: 20px 50px;
+    position: relative;
+    margin-top: 5rem;
+}
+.footercontainer .subscribe-main-wrapper {
+    position: absolute;
+    width: 100%;
+    top: -145px;
+    right: 0;
+    left: 0;
+    padding: 0 58px;
+}
+.footercontainer .subscribe-section {
+    background-color: #f76c1e;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.footercontainer .subscribe-content h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+.footercontainer .subtitle {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+.footercontainer .description {
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+.footercontainer .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footercontainer .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+.footercontainer .subscribe-form button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #143863;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+.footercontainer .subscribe-form button:hover {
+    background-color: #333;
+}
+.footercontainer .footer {
+    color: #fff;
+    margin-top: 10rem;
+}
+.footercontainer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin: auto;
+}
+.footercontainer .footer-column {
+    flex: 1;
+    margin-top: 30px;
+    width: 100%;
+}
+.footer-left-column {
+    width: 36%;
+}
+.footer-right-column {
+    display: flex;
+    width: 52%;
+    justify-content: space-between;
+}
+.footercontainer .footer-logo img {
+    width: 85%;
+    vertical-align: middle;
+}
+.footercontainer .footer-logo h2 {
+    font-size: 1.2rem;
+}
+.footercontainer .tagline {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.footercontainer .footer-desc {
+    margin-top: 10px;
+    color: #fff;
+    font-family: "Neue Montreal";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.footercontainer .footer-column h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.footercontainer .footer-column ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.footercontainer .footer-column ul li a{
+    
+    color: #fff;
+}
+
+.footercontainer .contact-info li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.footercontainer .contact-info li.address {
+    align-items: self-start;
+}
+.footercontainer .contact-info li img {
+    width: 26px;
+    margin-right: 10px;
+}
+.footercontainer .contact-info li.address img {
+    margin-top: 5px;
+}
+.footercontainer .footer-bottom {
+    border-top: 1px solid #84a2ce;
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+}
+.footercontainer .social-icons a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.footercontainer .social-icons img {
+    width: 153px;
+}
+.footer-top_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+    padding: 0;
+}
+.footer-bottom ul {
+    display: flex;
+    gap: 10px;
+}
+.footer-bottom ul li {
+    list-style: none;
+}
+.footer-bottom ul li a {
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+
+
+.fa-solid{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Checkout.module.css */
+
+.cartPreviewContainer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  min-height: 100vh; /* Ensures the background covers the whole viewport */
+}
+
+.cartPageHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.cartHeaderTitle {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.mainContentLayout {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.leftPanel {
+  flex: 2;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.sectionHeader:last-of-type {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.arrowIcon {
+  font-size: 18px;
+  color: #666;
+}
+
+.paymentInfoSection {
+  background-color: #fff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-top: 20px; /* Space from the previous section */
+}
+
+.paymentInfoTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paymentInfoTitle:after {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #a9a9a9;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.formGroup input::placeholder {
+  color: #888;
+}
+
+.cardDetailsRow {
+  display: flex;
+  gap: 20px;
+}
+
+.cardDetailsRow > div {
+  flex: 1;
+}
+
+.securePaymentInfo {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.securePaymentText {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.securePaymentText a {
+  color: #ff5722; /* Orange color for the link */
+  text-decoration: none;
+}
+
+.securePaymentText a:hover {
+  text-decoration: underline;
+}
+
+.cardLogos img {
+  height: 25px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+/* Right Panel - Order Summary */
+.orderSummaryCard {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+
+.summaryCardTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.summaryRow.totalAmount {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.bookingAmountRow {
+  color: #f75d50; /* Adjust to the specific red/orange from the image */
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.couponInputContainer {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.couponInput {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.couponInput::placeholder {
+  color: #aaa;
+}
+
+.makePaymentButton {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff5722; /* Orange button color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.makePaymentButton:hover {
+  background-color: #e04e1c;
+}
+
+/* Image specific adjustments for icons */
+.cartItemsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.cartItemsRow span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cartIcon {
+  width: 20px; /* Adjust size of cart icon */
+  height: 20px;
+}
+
+.detailsLink {
+  color: #007bff; /* Blue for details link */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.detailsLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainContentLayout {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .leftPanel,
+  .orderSummaryCard {
+    width: 100%;
+  }
+
+  .cardDetailsRow {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

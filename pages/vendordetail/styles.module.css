@@ -1,0 +1,380 @@
+.vendor_detail{
+    width: 100vw;
+    /* position: relative; */
+}
+
+.vendor_detail_body{
+    width: 100%;
+
+    background: #F5F5F7;
+}
+.vendor_image{
+    width: 96%;
+    margin: 0px auto;
+    position: relative;
+}
+.vendor_image img{
+    width: 100%;
+}
+
+.vendordetail_description{
+   
+    position: absolute;
+    width: 90%;
+    left: 50%;
+  transform: translateX(-50%);
+    /* border: 2px solid red; */
+    bottom: -270px;
+    background: #fff;
+}
+
+.vendordetailed_desc{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 40px 20px 40px;
+}
+
+.vendordetailed_desc_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.vendor_name{
+    color: #000;
+font-family: "Neue Montreal";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 36px */
+}
+
+.vendor_address{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 4px 0px;
+}
+
+.vendor_address p{
+   color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.official_address{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.vendor_contact_button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin:14px 0px  30px 0px;
+}
+
+.vendor_contact{
+    background: #F47721;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 21px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+border: none;
+display: flex;
+gap: 5px;
+align-items: center;
+}
+
+.vendor_contact_by_message{
+ background: #F47721;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 21px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+border: none;
+display: flex;
+gap: 5px;
+align-items: center;   
+}
+
+.vendor_booking{
+  color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+background: #F47721;
+padding: 15px 31px;  
+border: none;
+border-radius: 10px;
+}
+
+.vendor_rate{
+    background: #2FAA4A;
+    padding: 20px 25px;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.vendor_totalreview{
+    color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+padding: 6px 0px;
+}
+.vendor_rate p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 48px */
+}
+
+.vendordetailed_desc_right{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+}
+
+.price_text{
+    color: #525252;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+
+.vendor_unit_price{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+}
+.line{
+    border: 1px solid #DDDDDD;
+    width: 100%;
+}
+
+.vendor_photo_review_and_share{
+    display: flex;
+    padding: 32px 36px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vendor_photos{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #525252;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.shortlisting{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #525252;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.vendor_review{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #525252;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.vendor_photos{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #525252;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.about_vender{
+    margin: 0px auto;
+   margin-top: 280px;
+    background: #FFFFff;
+    width: 90%;
+    box-shadow: 0px 2.5px 4px 0px rgba(174, 174, 174, 0.12);
+
+}
+
+.about_vender ul{
+    display: flex;
+    padding: 30px 35px;
+    gap: 100px;
+    
+    /* justify-content: space-evenly; */
+}
+
+.about_vender ul li{
+    list-style: none;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+.about_vender ul li.active {
+  color: #F47721; /* orange color */
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.about_vender ul li.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  /* background-color: #F47721;  */
+}
+
+.vendor_total_capacity{
+    width: 90%;
+    background: #ffffff;
+    box-shadow: 0px 2.5px 4px 0px rgba(174, 174, 174, 0.12);
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 25px 40px;
+    gap: 15px;
+
+}
+
+.capacity_heading{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.vendor_indoor_outdoor{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+
+.indoor_icon{
+    color: #525252;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+
+.total_people{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 32px */
+}
+
+.vendor_all_images_container{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.vendor_single_image_container{
+    width: 23%;
+}
+
+.vendor_single_image_container img{
+    width: 100%;
+}
+
+.vendor_overview{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.vendor_overview_heading{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 32px */
+}
+
+.vendor_overview_desc{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+padding: 20px 0px;
+}
+
+.vendor_review_section{
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.vendor_review_section img{
+    width: 100%;
+}
+
