@@ -1,6 +1,6 @@
 // components/CartItem.jsx
 import React from 'react';
-import deleteicon from "../assets/images/icons/delete.png"
+import deleteicon from "../assets/images/icons/delete.jpeg"
 const CartItem = ({
   heading,
   image,

@@ -3,10 +3,10 @@ import { SeoMeta } from '@/components/common/Meta'
 import Header from '@/components/common/Header'
 import Faqs from '@/components/common/Faqs'
 import Footer from '@/components/common/Footer'
-import question from '@/assets/images/icons/question 2 1.png'
-import birtdaycake from '../../assets/images/icons/birthday-cake.png'
-import locator from '../../assets/images/icons/locator.png'
-import calender from '../../assets/images/icons/calendar.png'
+import question from '@/assets/images/icons/question.png'
+import birtdaycake from '../../assets/images/icons/birthday-cake 1.png'
+import locator from '../../assets/images/icons/locator 2 1.png'
+import calender from '../../assets/images/icons/calendar 1.png'
 import people from "../../assets/images/icons/people.png"
 import rupee from "../../assets/images/icons/rupee.png"
 import cutlery from "../../assets/images/icons/cutlery.png"
@@ -15,10 +15,9 @@ import cart2 from "../../assets/images/cart2.png"
 import cart3 from "../../assets/images/cart3.png"
 import cart4 from "../../assets/images/cart4.png"
 import cart5 from "../../assets/images/cart5.png";
-import deleteicon from "../../assets/images/icons/delete.png"
+import deleteicon from "../../assets/images/icons/delete.jpeg"
 import veg from "../../assets/images/icons/vegIcon.svg"
 import customer from "../../assets/images/icons/customer-service.png"
-import CartItem from '@/components/CartItem'
 function Cart() {
   const initialServices = [
  {
